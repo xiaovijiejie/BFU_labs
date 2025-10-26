@@ -56,7 +56,7 @@ int main () {
     //пункт 2
 
     int X;
-    std::cout << "\nEnter integer X (|X| < 1000)";
+    std::cout << "Enter integer X (|X| < 1000)\n";
     if (!(std::cin >> X) || std::abs(X) >= 1000) {
         std::cout << "Wrong input.\n";
         return 0;
